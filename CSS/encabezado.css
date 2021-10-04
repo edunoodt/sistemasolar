@@ -1,0 +1,34 @@
+body{
+    background-color: darkgoldenrod;
+}
+
+.contenedor-encabezado{
+    width: 100%;
+    color: gold;
+    background-color: rgb(112, 84, 13);
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    justify-content: space-around;
+    background-image: url("../IMG/sistema-solar-01.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size:cover;
+
+}
+
+.titulo{
+    font-size: 30px;
+    text-shadow: .2em .2em brown;
+}
+
+.menu li{
+    /*display: inline-block;*/
+    flex-direction:inherit;
+}
+
+.menu a{
+    flex-direction: row;
+    color: chocolate;
+
+}
