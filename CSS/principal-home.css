@@ -1,0 +1,68 @@
+.contenedor-primera{
+    width: 100%;
+    color: gold;
+    background-color: rgb(112, 84, 13);
+    /*display: -webkit-flex;
+    display: -ms-flexbox;*/
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.contenedor-primera > article{
+
+    width: 45%;
+    background-color: rgb(73, 54, 13);
+    margin: 100px 10px 10px 10px;
+
+}
+
+.contenedor-primera > article img{
+    width: 98%;
+    height: 80%;
+    padding: 1%;
+    margin-top: 8%;
+}
+
+.contenedor-primera > .info-descripcion{
+    text-indent: 5vw;
+    font-size:  1.5vw;
+    padding: 1.5vw;
+
+}
+
+.formacion{
+    height: 100vh;
+    background-image: url("../IMG/sistema-solar-03.jpg");
+    background-position: center;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.formacion .titulo-formacion{
+    color: burlywood;
+    padding: 3vw;
+    
+}
+
+.formacion-info{
+    color: darkgoldenrod;
+    background-color: rgb(67, 90, 28,.5);
+    font-size: 1.5vw;
+    width: 70%;
+    padding: 5%;
+    margin: auto;
+}
+
+.video{
+
+    width: 100%;
+    height: 450px;
+    background-color: rgb(67, 90, 28,.5);
+    margin-top: 30px;
+}
+.video iframe{
+    padding-top: 2%;
+    padding-left: 10%;
+}

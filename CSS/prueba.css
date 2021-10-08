@@ -1,0 +1,14 @@
+
+
+@keyframes desplazamiento {
+    from {margin-left: 300px;}
+    to{margin-left: 0;}
+    
+}
+
+h1{
+    color: red;
+    animation-name: desplazamiento;
+    animation-duration: 5s;
+    anim
+}
