@@ -5,7 +5,7 @@ body{
 .contenedor-encabezado{
     width: 100%;
     color: gold;
-    background-color: rgb(112, 84, 13, .3);
+    background-color: rgb(112, 84, 13, .8);
     display: -webkit-flex;
     display: -ms-flexbox;
     display: flex;
@@ -41,9 +41,10 @@ body{
 
 .subtitulo{
     margin-top: 10px;
-    animation-name: desplazamiento;
+    margin-left: 10%;
+    /*animation-name: desplazamiento;
     animation-duration: 3s;
-    animation-delay: 1s;
+    animation-delay: 1s;*/
 }
 
 .menu{
@@ -52,10 +53,12 @@ body{
 .menu ul{
     list-style: none;
     margin-top: 5%;
+    margin-bottom: 2px;
 }
 
 .menu ul li{
     display: inline;
+    
 }
 
 .menu a{
@@ -64,6 +67,7 @@ body{
     color: gold;
     padding: .3em;
     margin-right: .1em;
+    
 }
 
 .menu a:hover{

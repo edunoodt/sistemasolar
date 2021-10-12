@@ -1,6 +1,20 @@
 .contenedor-sol{
-    width: 94%;
-    margin: 0 3% 0 3%;
+    background-color: firebrick;
+    width: 100%;
+    height: 100vh;
+    background-image: url("../IMG/sistema-solar-04.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    animation-name: solcrece;
+    animation-duration: 4s;
+}
+
+.tampon{
+    width: 100%;
+    height: 10vh;
+    background-color: firebrick;
 }
 
 @keyframes solcrece {
@@ -14,16 +28,46 @@
 }
 
 .composicion{
-    width: 100%;
-    height: 100vh;
-    background-color: rgb(231, 124, 81, .8);
-    background-image: url("../IMG/sistema-solar-04.jpg");
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: cover;
-    background-clip: content-box;
-    animation-name: solcrece;
-    animation-duration: 4s;
-    animation-delay: 2s;
+    width: 60%;
+    height: 50%;
+    margin: 2% auto 5% auto;
+    padding: 5%;
+    background-color: rgba(77, 38, 23, 0.8);
+    font-size: 1.2vw;
+    font-weight: 900;
+    color: rgb(224, 175, 39);
+    
 
+}
+
+.sol-descripcion{
+    background-color: darkgoldenrod;
+}
+
+.sol-caracteristicas{
+    width: 100%;
+    height: 50vw;
+    background-color: firebrick;
+    display: flex;
+}
+
+.sol-caracteristicas > div{
+    background-color: rgb(116, 60, 60);
+    font-size: 1.2vw;
+    font-weight: 900;
+    margin: 1%;
+    padding: 3px;
+    color: rgb(224, 175, 39);
+    width: 47%;
+    line-height: 1.4;
+}
+
+.sol-caracteristicas > div img{
+    width: 98%;
+    padding-left: 1%;
+    padding-top: 7%;
+}
+
+.sol-caracteristicas > div li{
+    margin-bottom: 2%;
 }
