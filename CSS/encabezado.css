@@ -15,9 +15,16 @@ body{
     background-position: center;
     background-size:cover;
     border-bottom: crimson solid .3em;*/
-    margin-bottom: .4em;
+    margin-bottom: 5em;
     position: fixed;
+    top: 0;
+    left: 0;
 
+}
+
+.contenedor-encabezado > div{
+    background-color: coral;
+    width: 33%;
 }
 
 @keyframes desplazamiento {
@@ -46,11 +53,11 @@ body{
     animation-duration: 3s;
     animation-delay: 1s;*/
 }
-
+/*
 .menu{
     width: auto;
-}
-.menu ul{
+}*/
+.contenedor-encabezado > div menu ul{
     list-style: none;
     margin-top: 5%;
     margin-bottom: 2px;
@@ -61,11 +68,13 @@ body{
     
 }
 
-.menu a{
+.menu li a{
     text-decoration: none;
     background-color: rgba(49, 10, 10, 0.466);
     color: gold;
+    font-weight: 600;
     padding: .3em;
+    margin: 20px;
     margin-right: .1em;
     
 }

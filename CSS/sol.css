@@ -1,7 +1,7 @@
 .contenedor-sol{
     background-color: firebrick;
     width: 100%;
-    height: 100vh;
+    height: 80vh;
     background-image: url("../IMG/sistema-solar-04.jpg");
     background-repeat: no-repeat;
     background-position: center;
@@ -30,7 +30,7 @@
 .composicion{
     width: 60%;
     height: 50%;
-    margin: 2% auto 5% auto;
+    margin: 2vw auto 5% auto;
     padding: 5%;
     background-color: rgba(77, 38, 23, 0.8);
     font-size: 1.2vw;
@@ -53,13 +53,14 @@
 
 .sol-caracteristicas > div{
     background-color: rgb(116, 60, 60);
-    font-size: 1.2vw;
+    font-size: 1.4vw;
     font-weight: 900;
     margin: 1%;
     padding: 3px;
     color: rgb(224, 175, 39);
     width: 47%;
     line-height: 1.4;
+    overflow: scroll;
 }
 
 .sol-caracteristicas > div img{
@@ -69,5 +70,8 @@
 }
 
 .sol-caracteristicas > div li{
-    margin-bottom: 2%;
+    width: 95%;
+    margin: auto;
+    text-align: justify;
+    
 }
