@@ -1,0 +1,88 @@
+body{
+    background-color: darkgoldenrod;
+}
+
+.contenedor-encabezado{
+    width: 100%;
+    color: gold;
+    background-color: rgb(112, 84, 13, .8);
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    justify-content:space-around;
+    /*background-image: url("../IMG/sistema-solar-01.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size:cover;
+    border-bottom: crimson solid .3em;*/
+    margin-bottom: 5em;
+    position: fixed;
+    top: 0;
+    left: 0;
+
+}
+
+.contenedor-encabezado > div{
+    background-color: coral;
+    width: 33%;
+}
+
+@keyframes desplazamiento {
+    from {margin-left: 200px;
+        margin-top: 50px;
+        color: black;}
+    to{margin-left: 0;
+        margin-top: 0;
+        color: chocolate;}
+    
+}
+
+
+.titulo{
+    /*font-size: 2em;*/
+    text-shadow: .2em .2em brown;
+    text-align: center;
+    animation-name: desplazamiento;
+    animation-duration: 3s;
+}
+
+.subtitulo{
+    margin-top: 10px;
+    margin-left: 10%;
+    /*animation-name: desplazamiento;
+    animation-duration: 3s;
+    animation-delay: 1s;*/
+}
+/*
+.menu{
+    width: auto;
+}*/
+.contenedor-encabezado > div menu ul{
+    list-style: none;
+    margin-top: 5%;
+    margin-bottom: 2px;
+}
+
+.menu ul li{
+    display: inline;
+    
+}
+
+.menu li a{
+    text-decoration: none;
+    background-color: rgba(49, 10, 10, 0.466);
+    color: gold;
+    font-weight: 600;
+    padding: .3em;
+    margin: 20px;
+    margin-right: .1em;
+    
+}
+
+.menu a:hover{
+
+    text-decoration: underline;
+    background-color: chartreuse;
+    color: rgb(10, 19, 2);
+
+}
