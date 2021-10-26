@@ -3,15 +3,6 @@
     height: 10vh;
 }
 
-.interiores-lista{
-    background-color: grey;
-    display:block;
-}
-.interiores-lista > div{
-    height: 65vh;
-    background-color: rgb(145, 97, 43);
-}
-
 .interior-descripcion{
     width: 65%;
     height: auto;
@@ -45,36 +36,38 @@
     animation-duration: 5s;
 }
 
+
+.interiores-lista{
+    background-color: grey;
+}
+
+.planeta{
+    width: 100%;
+    height:500px;
+    background-color: rgb(145, 97, 43);
+}
+
 .planet-titulo{
     font-size: 3vw;
     color: red;
     text-align: center;
 }
 
-.planet-img{
-    float: left;
-    width: 30%;
-}
-
-.planet-img img{
-    width: 90%;
-    margin-left: 1vw;
-    float: left;
-}
 .planet-texto{
     background-color: rgb(118, 82, 151, .4);
     float: right;
     width: 65%;
-    font-size: 1.8vw;
+    font-size: 1.6vw;
     padding-left: 1%;
 }
 
-@media all and (max-width:1200px){
+.planet-img{
+    float: left;
+    width: 20%;
+}
 
-    .interiores-lista > div{
-        height: 45vh;
-    }
-
+.planet-img img{
+    width: 100%;
 }
 
 @media all and (max-width:800px){
@@ -88,30 +81,26 @@
         font-size: 95%;
     }
 
-    .interiores-lista > div{
+    .planeta{
         height: 95vh;
     }
 
     .planet-img{
         float: none;
-        width: 80%;
+        width: 40%;
     }
     
-    .planet-img img{
-        width: 90%;
-        margin-left: 1vw;
-        float: none;
-    }
+    
     .planet-texto{
         background-color: rgb(118, 82, 151, .4);
         float: none;
         width: 90%;
         font-size: 2.5vw;
         padding-left: 1%;
-}
+    }
 }
 @media all and (max-width:400px){
-    .interiores-lista > div{
+    .planeta{
         height: 45vh;
     }
 
