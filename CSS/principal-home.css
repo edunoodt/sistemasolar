@@ -40,7 +40,6 @@
     background-repeat: no-repeat;
     background-size: cover;
 }
-
 .formacion .titulo-formacion{
     color: burlywood;
     padding: 3vw;
@@ -69,24 +68,96 @@
     padding-top: 2%;
     padding-left: 10%;
 }
-/*
+
 @media all and (max-width:800px){
+
     .contenedor-primera{
-        display:block;
-    }
-
-    .contenedor-primera > article{
         width: 90%;
-        margin: 10px auto 10px auto;
+        margin: auto;
+        color: gold;
+        background-color: rgb(112, 84, 13);
+        display: block;
     }
-
-
+    
+    .contenedor-primera > article{
+    
+        width: 98%;
+        background-color: rgb(73, 54, 13);
+    }
+    
+    .contenedor-primera > article img{
+        width: 98%;
+        height: 80%;
+        margin-top: 2%;
+    }
+    
+    
     .contenedor-primera > .info-descripcion{
         text-indent: 5vw;
-        font-size:  15px;
-        padding: 1.5vw;
+        font-size:  2vw;
+        padding: 1%;
     
     }
+    
+    .formacion{
+        /*height: 100vh;*/
+        height: auto;
+        width: 90%;
+        margin: auto;
+        background-image: url("../IMG/sistema-solar-03.jpg");
+        background-position: center;
+        background-attachment: fixed;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+    .formacion .titulo-formacion{
+        color: burlywood;
+        padding: 3vw;
+        font-size: 30px;
+        text-align: center;
+        
+    }
+    
+    .formacion-info{
+        color: darkgoldenrod;
+        background-color: rgb(67, 90, 28,.5);
+        font-size: 2.2vw;
+        width: 90%;
+        padding: 5%;
+        margin: auto;
+    }
+    
+    .video{
+    
+        width: 90%;
+        height: 450px;
+        background-color: rgb(67, 90, 28,.5);
+        margin-top: 20px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .video iframe{
+        padding-top: 2%;
+    }
+    
+
+
 
 
 }
+
+
+
+
+© 2021 GitHub, Inc.
+Terms
+Privacy
+Security
+Status
+Docs
+Contact GitHub
+Pricing
+API
+Training
+Blog
+About

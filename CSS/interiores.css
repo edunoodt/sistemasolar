@@ -1,0 +1,118 @@
+#superior{
+    width: 100%;
+    height: 10vh;
+}
+
+.interiores-lista{
+    background-color: grey;
+    display:block;
+}
+.interiores-lista > div{
+    height: 65vh;
+    background-color: rgb(145, 97, 43);
+}
+
+.interior-descripcion{
+    width: 65%;
+    height: auto;
+    font-size: 130%;
+    color: rgb(61, 19, 4);
+    background-color: black;
+    background-image: url(../IMG/sistema-solar-06.webp);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 60%;
+    margin: 0 auto 0 auto;
+    background-position-y:20%;
+    background-position-x: center;
+}
+
+@keyframes transparencia {
+    from{
+        background-color: rgb(145, 97, 43, 0);
+    }
+    to{
+        background-color: rgba(145, 97, 43, 0.7);
+    }
+    
+}
+
+.interior-descripcion-texto{
+    height: 100%;
+    background-color: rgb(145, 97, 43, .9);
+    padding: 3%;
+    animation-name: transparencia;
+    animation-duration: 5s;
+}
+
+.planet-titulo{
+    font-size: 3vw;
+    color: red;
+    text-align: center;
+}
+
+.planet-img{
+    float: left;
+    width: 30%;
+}
+
+.planet-img img{
+    width: 90%;
+    margin-left: 1vw;
+    float: left;
+}
+.planet-texto{
+    background-color: rgb(118, 82, 151, .4);
+    float: right;
+    width: 65%;
+    font-size: 1.8vw;
+    padding-left: 1%;
+}
+
+@media all and (max-width:1200px){
+
+    .interiores-lista > div{
+        height: 45vh;
+    }
+
+}
+
+@media all and (max-width:800px){
+
+    #superior{
+        width: 80%;
+        height: 4vh;
+    }
+    .interior-descripcion{
+        width: 80%;
+        font-size: 95%;
+    }
+
+    .interiores-lista > div{
+        height: 95vh;
+    }
+
+    .planet-img{
+        float: none;
+        width: 80%;
+    }
+    
+    .planet-img img{
+        width: 90%;
+        margin-left: 1vw;
+        float: none;
+    }
+    .planet-texto{
+        background-color: rgb(118, 82, 151, .4);
+        float: none;
+        width: 90%;
+        font-size: 2.5vw;
+        padding-left: 1%;
+}
+}
+@media all and (max-width:400px){
+    .interiores-lista > div{
+        height: 45vh;
+    }
+
+}

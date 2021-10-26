@@ -65,8 +65,8 @@ body{
 @media all and (max-width:800px){
 
     .contenedor-encabezado{
-        width: 80%;
-        margin: auto;
+        width: 90%;
+        margin-left: 5%;
     }
     
     .titulo {
